@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.images {
+
+    display: flex;
+    z-index: -1;
+    position: relative;
+    left: 0;
+}
+
+.container {
+    overflow: hidden;
+    width: 400px;
+    border: 5px solid #000;
+    border-radius: 5px;
+}
+
+.slider__photo {
+    width: 400px;
+    height: 300px;
+    z-index: 1;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.btn {
+    width: 80px;
+    height: 30px;
+    align-self: center;
+}
+
+.btn-prev {
+    margin-right: 25px;
+}
+.btn-next {
+    margin-left: 25px;
+}
+
